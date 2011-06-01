@@ -1,0 +1,7 @@
+h2. Domain Finder
+
+This is a tool I hacked together in a few minutes to help find catchy domains
+for new projects.  It takes one or more TLDs on the command line, and looks for
+words that end with that string.  Then, it filters that list based on whether
+the domains are currently registered (by doing a simple dns lookup on the
+domain).  It's a bit hacky, but it does work.  
